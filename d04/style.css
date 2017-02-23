@@ -1,0 +1,16 @@
+h1{
+  color:blue;
+  font-size: 60px;
+}
+
+body{
+  font-family: arial;
+}
+
+#bold{
+  font-style: bold;
+}
+
+.special{
+  font-size: 30px;
+}
