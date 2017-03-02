@@ -1,3 +1,33 @@
 .contain{
+  margin-top:0px;
+
+}
+
+.logo_flag{
   background-color: #bb141a;
+  width: 10%;
+  color:white;
+  padding: 0px 20px 0px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+
+h1{
+  text-align: right;
+}
+
+.hero{
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero img{
+  height: auto;
+  width: 100%;
 }
