@@ -1,21 +1,25 @@
+h1,h2{
+  display: inline-block;
+  margin:0;
+}
+
+h1 {
+  background-color: #bb141a;
+  padding: 10px 4px 10px 120px;
+}
+
 .contain{
   margin-top:0px;
 
 }
 
 .logo_flag{
-  background-color: #bb141a;
   width: 10%;
   color:white;
   padding: 0px 20px 0px 50px;
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
-}
-
-
-h1{
-  text-align: right;
 }
 
 body{
