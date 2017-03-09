@@ -11,8 +11,7 @@ p{
   border-style: solid;
 }
 
-p.longer{
+.col-1-2 >p{
   height: 400px;
 }
-
 
