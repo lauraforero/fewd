@@ -1,0 +1,11 @@
+
+div {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+div.bigger{
+  height: 500px;
+  width: 500px;
+}
