@@ -11,3 +11,4 @@
 // - .click()
 // - . text() or .html()
 // - .css()
+var value = 10
