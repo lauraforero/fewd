@@ -11,4 +11,43 @@
 // - .click()
 // - . text() or .html()
 // - .css()
-var value = 10
+var value = 0;
+var outText = $('#out').text();
+// click events
+
+$('.col-1-3').click(function(event){
+
+  var elementClickedId = event.target.id;
+  
+  if(elementClickedId ==  'n10') {
+   value-= 10;
+  } else if(elementClickedId ==  'n20') {
+    value-= 20;
+
+  } else if(elementClickedId ==  'n30') {
+    value-= 30;
+
+  } else if(elementClickedId ==  'a10') {
+    value+= 10;
+
+  } else if(elementClickedId ==  'a20') {
+    value+= 20;
+
+  } else if(elementClickedId ==  'a30') {
+    value+= 30;
+
+  } else if(elementClickedId == 'blue') {
+    $('#out').css('background-color', 'blue');
+
+  } else if(elementClickedId == 'red') {
+    $('#out').css('background-color', 'red');
+   
+  } else {
+    $('#out').css('background-color' , 'white');
+    value = 0;
+  }
+  
+  $('#out').text(parseInt(outText)+value);
+
+});
+
