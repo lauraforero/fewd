@@ -14,7 +14,3 @@ $('#edit').focus(function(){
 
 });
 
-$('#edit').focusout(function(){
-  $('#otherDropdown').css('display', 'none');
-
-});

@@ -1,0 +1,36 @@
+body{
+  color: white;
+}
+
+.container {
+  background-color: #000000;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header nav{
+  text-align: right;
+  padding: 1.9em 0;
+}
+
+header nav a{
+  color: white;
+  padding:  0 5px;
+}
+
+.selectnav { display: none; }
+
+@media (max-width: 600px) {
+  header nav, header h1 {
+    text-align: center;
+  }
+
+  header nav {
+    padding: 0;
+  }
+
+  .js #nav { display: none; }
+
+  .js .selectnav { display: block; }
+}
+
