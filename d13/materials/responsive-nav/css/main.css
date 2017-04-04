@@ -18,6 +18,48 @@ header nav a{
   padding:  0 5px;
 }
 
+
+img#hamburgermenu{
+   display: none;
+   width: 30%;
+   height: auto;
+   max-width: 40px;
+   min-width: 30px;
+   float: right;
+}
+
+.open-menu {
+  display: block;
+}
+
+@media (max-width: 768px) {
+
+   nav#nav {
+    display: none;
+    margin: 60px auto;
+    text-align: center;
+   }
+
+   img#hamburgermenu{
+    display: block;
+   }
+
+
+
+  header nav a {
+    display: block;
+    padding:20px;
+   }
+
+   header h1.col-1-2 {
+     width: 350px;
+     float: left;
+   }
+
+
+}
+
+
 @media (max-width: 600px) {
   header nav, header h1 {
     text-align: center;
@@ -25,6 +67,10 @@ header nav a{
 
   header nav {
     padding: 0;
+    margin: 0 auto;
+    text-align: center;
   }
+
+
 }
 
