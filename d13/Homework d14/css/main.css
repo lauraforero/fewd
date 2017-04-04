@@ -1,0 +1,71 @@
+body{
+  color: white;
+}
+
+.container {
+  background-color: #000000;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header nav{
+  text-align: right;
+  padding: 1.9em 0;
+}
+
+header nav a{
+  color: white;
+  padding:  0 5px;
+}
+
+
+img#hamburgermenu{
+   display: none;
+   width: 30%;
+   height: auto;
+   max-width: 40px;
+   min-width: 30px;
+   float: right;
+}
+
+@media (max-width: 768px) {
+
+   nav#nav {
+    display: none;
+    text-align: center;
+    margin: 60px auto;
+   }
+
+   img#hamburgermenu{
+    display: block;
+   }
+
+
+
+  header nav a {
+    display: block;
+    padding:20px;
+   }
+
+   header h1.col-1-2 {
+     width: 350px;
+     float: left;
+   }
+
+
+}
+
+
+@media (max-width: 600px) {
+  header nav, header h1 {
+    text-align: center;
+  }
+
+  header nav {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+}
